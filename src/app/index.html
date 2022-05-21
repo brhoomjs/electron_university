@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart university</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid white;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="overlay"></div>
+    <div id="setup">
+      <div class="card">
+        <select id="rooms">
+          <option selected disabled>Select Room Number</option>
+        </select>
+        <select id="ports">
+          <option selected disabled>Select USB Port</option>
+        </select>
+        <button id="connectButton">Connect</button>
+      </div>
+    </div>
+    <div id="main"></div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
